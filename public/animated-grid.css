@@ -32,6 +32,11 @@
 
 }
 
+.card {
+background-color: rgb(36, 243, 147);
+animation: cardEntrance 700ms ease-out;
+animation-fill-mode: backwards;
+}
 
 .card:nth-child(1) {
     grid-area: a;
