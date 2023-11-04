@@ -13,6 +13,10 @@
 
     grid-template-rows: repeat(4, 25%);
     grid-template-columns: 240px auto auto 240px;
+
+    --stagger-delay: 100ms;
+}
+
 .card:nth-child(1) {
     grid-area: a;
     animation-delay: calc(1 * var(--stagger-delay));
