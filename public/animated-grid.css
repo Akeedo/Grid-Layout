@@ -1,0 +1,15 @@
+.animated-grid {
+    height: 85vh;
+    margin-bottom: 200px;
+
+    display: grid;
+    gap: 1rem;
+
+    grid-template-areas:
+    'a  b  c  d'
+    'l  🌟 🌟 e'
+    'k  🌟 🌟 f'
+    'j  i  h  g';
+
+    
+}
