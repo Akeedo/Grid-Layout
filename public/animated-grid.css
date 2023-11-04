@@ -11,5 +11,6 @@
     'k  🌟 🌟 f'
     'j  i  h  g';
 
-    
+    grid-template-rows: repeat(4, 25%);
+    grid-template-columns: 240px auto auto 240px;
 }
